@@ -1,7 +1,7 @@
+
 # Vehicle History Reports
 
-![GitHub](https://img.shields.io/github/license/mmphego/vehicle_history_reports.svg)
-[![Build Status](https://img.shields.io/travis/mmphego/vehicle_history_reportssvg)](https://travis-ci.com/mmphego/vehicle_history_reports)
+![GitHub](https://img.shields.io/github/license/mmphego/vehicle_history_reports.svg)[![Build Status](https://img.shields.io/travis/mmphego/vehicle_history_reportssvg)](https://travis-ci.com/mmphego/vehicle_history_reports)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-red.svg)](https://www.python.org/downloads/)
 
 Web scrapping tool for Vehicle information by VIN number
@@ -9,12 +9,13 @@ Web scrapping tool for Vehicle information by VIN number
 # Installation
 
 Before you install ensure that `geckodriver` for Firefox is installed.
-    *   Download [geckodriver](https://github.com/mozilla/geckodriver)
-        *   ```wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz```
-        *   Extract: ```tar -xvzf geckodriver-v0.24.0-linux64.tar.gz```
-    *   `sudo cp geckodriver /usr/local/bin`
 
-To install Vehicle History Reports, run this command in your terminal:
+ - Download [geckodriver](https://github.com/mozilla/geckodriver)
+	 -  ```wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz```
+- Extract: ```tar -xvzf geckodriver-v0.24.0-linux64.tar.gz```
+-  `sudo cp geckodriver /usr/local/bin`
+
+To install Vehicle History Reports, run this command in your bash terminal:
 
 ```python
     pip install -U .
@@ -83,7 +84,7 @@ Copy below code to `run.php`
 Run php:
 `php -S 127.0.0.1:8080 -t .`
 
-then in your browser goto: http://localhost:8080/run.php
+then in your browser goto: http://localhost:8080/run.php hit `Go` and see the scrapping....
 
 # Oh, Thanks!
 
