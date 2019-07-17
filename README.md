@@ -86,6 +86,10 @@ Run php:
 
 then in your browser goto: http://localhost:8080/run.php hit `Go` and see the scrapping....
 
+# Demo
+
+![demo](assets/demo.gif)
+
 # Oh, Thanks!
 
 By the way...
