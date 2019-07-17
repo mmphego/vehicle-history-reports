@@ -18,7 +18,7 @@ Before you install ensure that `geckodriver` for Firefox is installed.
 To install Vehicle History Reports, run this command in your bash terminal:
 
 ```python
-    pip install -U .
+    sudo pip install -U .
 ```
 
 This is the preferred method to install Vehicle History Reports, as it will always install the most recent stable release.
