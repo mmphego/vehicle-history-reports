@@ -23,6 +23,7 @@ REQUIRED = [
     "requests==2.22.0",
     "selenium==3.141.0",
     "psutil==5.6.3",
+    "loguru"
 ]
 
 REQUIRES_PYTHON = ">=3.6.0"
