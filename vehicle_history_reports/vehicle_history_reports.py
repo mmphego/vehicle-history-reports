@@ -84,7 +84,7 @@ class VehicleHistoryReports:
         self.data_structure = DataStructure.asdict()
         self.vin_number = vin_number
         # According to: https://en.wikipedia.org/wiki/Vehicle_identification_number
-        assert len(self.vin_number) == 17
+        assert len(self.vin_number) == 17, "ERROR: VIN Number should be 17 Characters."
         self.logger = logger
         self.logger.level(log_level.upper())
         self.proxy = None
